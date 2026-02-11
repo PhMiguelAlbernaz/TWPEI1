@@ -1,0 +1,12 @@
+.header li{
+    display: inline-block;
+}
+
+.header li a {
+  display: inline-block;
+  position: relative;
+  padding: 10px 20px;
+  color: var(--color-black);
+  font-family: var(--font-system-ui);
+  font-size: var(--font-size-body);
+}
