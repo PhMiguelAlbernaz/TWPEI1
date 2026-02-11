@@ -1,12 +1,22 @@
-.header li{
-    display: inline-block;
+.container {
+  display: flex;
+  align-items: center; /* Aligns p and li vertically */
+  padding: 10px;
 }
 
-.header li a {
-  display: inline-block;
-  position: relative;
-  padding: 10px 20px;
-  color: var(--color-black);
-  font-family: var(--font-system-ui);
-  font-size: var(--font-size-body);
+header p {
+  display: inline;
+  margin: 0;
+  margin-right: 20px; /* Space between the p and the start of the list */
+}
+
+.nav {
+  list-style: none; /* Removes bullet points */
+  padding: 0;
+  display: flex; /* Better than inline for list items */
+}
+
+.nav li {
+  font-size: 18px;
+  padding: 0 15px; /* Side padding only to prevent vertical jumping */
 }
