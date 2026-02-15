@@ -7,16 +7,18 @@
 header p {
   display: inline;
   margin: 0;
-  margin-right: 20px; /* Space between the p and the start of the list */
+  margin-right: 800px; /* Space between the p and the start of the list */
 }
 
 .nav {
   list-style: none; /* Removes bullet points */
   padding: 0;
-  display: flex; /* Better than inline for list items */
+  display: flex;
+  /* Better than inline for list items */
 }
 
+
 .nav li {
-  font-size: 18px;
-  padding: 0 15px; /* Side padding only to prevent vertical jumping */
-}
+  font-size: 20px;
+  padding: 0  27px; /* Side padding only to prevent vertical jumping */
+}  
