@@ -38,7 +38,7 @@ body {
 .letters{
   display: flex;
   padding-inline-start: 0%;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: bold;
   justify-content:center;
   flex-direction: row;
@@ -68,13 +68,20 @@ body {
 }
 
 
-.servicos {
+.parceiros {
   background-color: darkgrey;
   width: 100%;
   height: fit-content;
   padding: 15px;
   display: flex;
   justify-content: space-between;
+}
+.contactos{
+  padding: 5px;
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content:space-evenly;
 }
 
 
