@@ -1,14 +1,17 @@
 .container {
   display: flex;
-  align-items: center; /* Aligns p and li vertically */
-  padding: 10px;
+  justify-content: space-between; /* Aligns p and li vertically */
+  align-items: center;
+  padding: 1em;
 }
 
-header p {
-  display: inline;
+header {
   margin: 0;
-  margin-right: 800px; /* Space between the p and the start of the list */
 }
+body {
+  margin: 0;
+}
+
 
 .nav {
   list-style:none; /* Removes bullet points */
@@ -20,8 +23,8 @@ header p {
 
 
 .nav li {
-  font-size: 25px;
-  padding: 0  27.7px;
+  font-size: 1.2em;
+  padding: 0  1em;
   color: black;
 } 
 .imageilheu{
@@ -41,15 +44,19 @@ header p {
   flex-direction: row;
   color: #061D60;
 }
+
 .areas{
   background-color:#061D60;
-  font-size: 20px;
+  font-size: 1.5em;
   color: #fff;
   margin: 10px;
   border-radius: 10px;
-  width: 200px;
-  height: 200px;
-  
+  width: 20vw;
+  height: 20vh;
+}
+
+.areas p {
+  font-size: 1em;
 }
 
 .content{
@@ -60,5 +67,14 @@ header p {
     justify-content: space-evenly;
 }
 
+
+.servicos {
+  background-color: darkgrey;
+  width: 100%;
+  height: fit-content;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
 
 
