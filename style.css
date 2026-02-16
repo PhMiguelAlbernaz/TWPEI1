@@ -11,14 +11,34 @@ header p {
 }
 
 .nav {
-  list-style: none; /* Removes bullet points */
+  list-style:none; /* Removes bullet points */
   padding: 0;
   display: flex;
+  margin: 0%;
   /* Better than inline for list items */
 }
 
 
 .nav li {
-  font-size: 20px;
-  padding: 0  27px; /* Side padding only to prevent vertical jumping */
-}  
+  font-size: 25px;
+  padding: 0  27.7px;
+
+} 
+.imageilheu{
+  background-image:url(imagens/ilheu.png);
+  background-size:cover;
+  margin: 0%;
+  height: 600px;
+
+  
+}
+.missao {
+  fill:url(imagens/ilheu.png);
+  padding-inline-start: 0%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+
+
