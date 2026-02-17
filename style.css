@@ -7,7 +7,11 @@
 
 header {
   margin: 0;
+  background-color: #fff;
+  opacity: 50%;
+  color: #1E4F8C;
 }
+
 body {
   margin: 0;
 }
@@ -26,15 +30,10 @@ body {
   font-size: 1.2em;
   padding: 0  1em;
   color: black;
-} 
-.imageilheu{
-  background-image:url(imagens/ilheu.png);
-  background-size:cover;
-  margin: 0%;
-  height: 600px;
+}
 
   
-}
+
 .letters{
   display: flex;
   padding-inline-start: 0%;
@@ -75,6 +74,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+ 
 }
 
 .parceiros img {
@@ -105,7 +105,14 @@ body {
   max-height: 50%;
 
 }
-
-
-
-
+.footer{
+  background-color: #061D60;
+  font-size: 1em;
+  color: #FFFFFF;
+  margin: 0;
+}
+.background{
+  background-image: url(imagens/background.png);
+  margin: 0%;
+  background-size: cover;
+}
