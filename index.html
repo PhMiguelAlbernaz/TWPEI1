@@ -4,11 +4,11 @@
     <link rel="stylesheet" href="style.css">    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Centro Académico Clínico dos Açores</title>
 </head>
 <header>
     <div class = "container">
-        <p><img src="imagens/logotipo.png" alt="12" height="95"></p>
+        <p><img src="imagens/logotipo.png" alt="12" height="80"></p>
 
         <ul class="nav">
             <li><a href="#A">Missão</a></li>
@@ -20,26 +20,44 @@
     </div>
 </header>
 <body class="background">
+
     <div class="missao">    
         <h1 id="A">Missão</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum debitis ex dolore error est, labore ipsum a doloribus id. Cupiditate veniam aperiam minima eius voluptates officiis quas similique dolores? Repellendus.</p>
-    </div>
+    <p>O CACA tem como propósito melhorar a saúde e a assistência médica 
+        para os habitantes da região autónoma dos Açores através das suas 
+        investigações na area da E.</p>
     </div>
 
+    <div class="missao">    
+        <h1>Visão</h1>
+    <p>Pretendemos ser uma referência na inovação médica. O nosso Centro
+        pretende mostrar que a deslocalização não seja um obstáculo
+        à excelência e ao esforço nos estudos e formações.
+    </p>
+    </div>
 
-    <h1 id="B">Area de investigação</h1>
+    <div class="missao">    
+        <h1>Enquadramento na região</h1>
+        <p>O CACA nasce da necessidade de unir o Serviço Regional de Saúde
+            e a Universidade dos Açores de modo a haver uma ligação mais 
+            efetiva entre as nossas ilhas, de modo a desenvolver uma 
+            melhor formação insular.
+        </p>
+    </div>
+
+    <h1 id="B" class="investigacao">Area de investigação</h1>
     <div class="content">
         <div class="areas"> &nbsp;Telemedicina
-            <p>Descrição</p>
+            <p>Olá eu sou a telemedicina</p>
         </div>
         <div class="areas"> &nbsp;E-saude
-            <p>Descrição</p>
+            <p>Olá eu sou a E-saude</p>
         </div>
         <div class="areas"> &nbsp;IA em medicina
-            <p>Descrição</p>
+            <p>Olá eu sou a IA em medicina</p>
         </div>
         <div class="areas"> &nbsp;Epidemiologia
-            <p>Descrição</p>
+            <p>Olá eu sou a Epidemiologia</p>
         </div>
     </div>
     <br>
@@ -75,20 +93,48 @@ Telefone: 987654321 <br><br>
 Email: caca@azores.gov.pt <br> <br>Rua Clarimunda Nº 67  <br><br>Codigo-Postal:9500-567
     </p>    
         <img src="imagens/smiguel.png" alt="localizacao" >
-       </div> 
-    <br>
-    <br>
+       
+    <form method="post" action="process.php">
+        <fieldset>
+    <legend>Contactar</legend>
+    <p>
+    <label>Nome: </label>
+    <input type="text" name="nome" />
+    </p>
+    <p>
+    <label>Email: </label>
+    <input type="text" name="email" />
+    </p>
+    <p>
+    <label>Assunto: </label>
+    <select name="assunto">
+    <option>Escolha uma opção</option>
+    <option>Saúde</option>
+    <option>imagem do warai</option>
+    <option>O LMG caiu das escadas a baixo ❤️</option>
+    </select>
+    </p>
+    <label>Mensagem</label>
+    <textarea name="warai" id="67">Escreva a sua mensagem</textarea>
+    <input type="submit" />
+    </fieldset>
+    </form>
+    
+    
+    
+    </div> 
+
     
 </body>
 
 <footer class="footer">
     <div class="referencia">
-        <p>asdfg</p>
-        <p>asdsfdbgh</p>
-        <p>asdfg</p>
+        <p>Centro Clínico Académico dos Açores</p>
+        <p>Universidade dos açores</p>
+        <p>2º ano informática</p>
     </div>
     <div class="direitos">
-        <p>pro carai com essa merda ❤️</p>
+        <p>Eu sou os direitos</p>
         <p>Privacidade e Termos</p>
     </div>
 </footer>
