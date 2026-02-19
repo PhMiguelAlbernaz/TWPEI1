@@ -31,7 +31,8 @@ header {
   border-bottom: 2px solid #061D60;
 }
 .nav li a{
- text-decoration: none; 
+ text-decoration:none;
+ color: #061D60;
 }
 body {
   margin: 0;
@@ -39,7 +40,7 @@ body {
 }
 
 .background{
-  background-image: url(imagens/imagemcozinhada.png);
+  background-image: url(imagens/imagem_recortada.png);
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
@@ -189,7 +190,7 @@ h2 {
     width: 100;
     height: auto;
     display: flex;
-    justify-content:space-around;
+    flex-wrap: wrap;
     
 }
 
@@ -202,8 +203,8 @@ h2 {
 }
 
 .contactos img {
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 70%;
+  max-height: 25%;
 
 }
 
@@ -261,7 +262,7 @@ TAMANHO PARA TABLET
   }
   .content{
   padding-bottom: 0;
-    padding: 10px;
+    padding: 5px;
     width: 100vw;
     height: 50vh;
     display: flex;
@@ -276,6 +277,7 @@ TAMANHO PARA TABLET
   color: #061D60;
   text-decoration: none;
   }
+
   h1 {
   display: flex;
   padding-top: 5em;
@@ -300,6 +302,8 @@ TAMANHO PARA TABLET
   height: 15vh;
   box-shadow: .35em .35em .5em whitesmoke;
   padding-bottom:1em;
+ 
+
 }
 
 .servicos{
@@ -321,7 +325,7 @@ TAMANHO PARA TABLET
 
 .parceiros img{
   max-width: 100%;
-  height: 15vh;
+  height: 11.1vh;
 }
 
 .servicos{
@@ -331,7 +335,30 @@ TAMANHO PARA TABLET
     display: flex;
     justify-content:space-around;
 }
+.contactos{
+    margin-left: 1em;
+    margin-top: 5em;
+    width: 100;
+    height: auto;
+    display: flex;
+    justify-content:space-around;
+    
+}
 
+.contactos p {
+  padding: .5em;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50px;
+
+}
+
+.contactos img {
+  max-width: 40%;
+  max-height: 25%;
+  padding-right: 1em;
+
+}
 .footer{
   background-color: rgb(255, 255, 255, 0.65);
   font-size: 1em;
@@ -477,20 +504,40 @@ TAMANHO PARA COMPUTADOR
   footer p {
     margin: 0;
 }
+.contactos{
+    margin-left: 5em;
+    margin-top: 5em;
+    width: 100;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
+.contactos p {
+  padding: 2em;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50px;
+
+}
+
+.contactos img {
+  max-width: 30%;
+  max-height: 15%;
+
+}
 .referencia {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .direitos {
   display: flex;
   justify-content: space-between;
   padding: 1em;
 }
-
 form textarea{
     width: 100%;
     height: 5em;
