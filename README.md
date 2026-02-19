@@ -1,13 +1,12 @@
 # TWPEI1
-Alinea A
 Grupo: 
 Miguel Albernaz -> 2024109911
 Hernâni Araujo ->2024111863
 Pedro Anselmo -> 2023109163
 
-A letra que utilizamos foi a que  achamos mais percetivel pelos utilizadores perceberem a informação disponibilizada pelo site e se adquava melhor ao tema.As cores dos textos, caixas de texto  tem como proposito estar  tanto relacionada  com o tema de  ser  um centro académico localizado nos açores como fazer contraste com a imagem que colocamos para o background que tem a mesma finalidade anteriormente mencionada.
+A fonte utilizada para os títulos e parágrafos foi a original (que vem por defeito sem edição) porque, segundo a nossa perspetiva, seriam percetíveis o suficiente para mostrar a informação da landing page. As cores e imagens representam temas da Universidade dos Açores e a um tema clínico e médico, como por exemplo imagens de laboratórios e dos Açores.
 
-O wireframe temos apenas a ideia para o design que foi desenvolvida nos mockups.A evolucao dos mockups para a implementacao final o design manteve se e organizamos as areas de investigacao, serviços, missão, estrutura do header  e  contactos em containers e os seus  titulos tão em tamanho  h1. O footer ta em footer no css.No HTML organizamos de forma crescente a limitação dos pixeis  para cada dispositivo
+Para um processo evolutivo da landing page começamos por pensar num aspeto e estrutura preparados para computador, colocando sequencialmente os tópicos. Em relação ao mockup desenvolvemos as ideias originadas do wireframe e confirmamos uma boa estrutura da landing page, os quais foram refletidos para outros dispositivos.
 
+De modo a tentarmos evitar quaisquer constrições possibilitadas com contraste de cores e tamanho das fontes, tentamos manter um contraste visual aparente (em maioria dos casos), de modo a ser legível quando contraposto com imagen. Já para o tamanho de letra, tal como a estrutura da landing page, permitimos a alteração de fontes e estrutura de acordo com media queries (telemóvel abaixo de 768px /minimo médio-768px/minimo grande-1020px) de forma a tornar o tamanho da fonte e estrutura coerente e apelativos.
 
-Preocupamo-nos que o site tivesse  responsividade para telemoveis , tablets e  computadores e fosse clara de perceber a informação que tivesse la apresentada procurando nomes aplativos de modo ao utilizador final perceber que terá de clicar no butão  para aceder tal parte do site como podemos ver na aba ensino. Preocupamo -nos ainda com o tamanho da letra  focando  nos para quem tem problemas de  visão que não lhe permitem ler letras mais pequenas.A estrutura da landing page é simples para haver menos ambiguidade na procura de informacão. 
