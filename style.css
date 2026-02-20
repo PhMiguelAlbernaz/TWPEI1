@@ -6,17 +6,16 @@ header {
 
 .container {
   display: flex;
-  justify-content: space-between; /* Aligns p and li vertically */
+  justify-content: space-between;
   align-items: center;
   padding-left: 0.5em;
 }
 
 .nav {
-  list-style:none; /* Removes bullet points */
+  list-style:none;
   padding: 0;
   display: flex;
   margin: 0%;
-  /* Better than inline for list items */
 }
 
 
@@ -68,7 +67,6 @@ h2 {
   border-radius: 14px;
 }
 
-
 .missao h1 {
   justify-content: flex-start;
   padding-left: .5em;
@@ -95,11 +93,11 @@ h2 {
 
 .content{
   padding-bottom: 0;
-    width: 100vw;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .areas{
@@ -110,8 +108,8 @@ h2 {
   font-weight: bold;
   margin: 10px;
   border-radius: 10px;
-  width: 30vw;
-  height: 15vh; 
+  width: 40vw;
+  height: 30vh; 
   box-shadow: .35em .35em .5em whitesmoke;
   padding-bottom: 1.2em;
 }
@@ -123,10 +121,8 @@ h2 {
 }
 
 .areas h2 {
-padding-left: 0.5em;
+  padding-left: 0.5em;
 }
-
-
 
 .parceiros {
   background-color: rgba(255,255, 255, 0.5);
@@ -144,15 +140,14 @@ padding-left: 0.5em;
 }
 
 .servicos{
-
-    width: 100vw;
-    height: 50vh;
-    display: flex;
-    justify-content:space-around;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content:space-around;
 }
 .servicos_titulo{
   display: flex;
-  padding-top:10em;
+  padding-top:30em;
   font-size:1em;
   font-weight: bold;
   justify-content:center;
@@ -170,8 +165,8 @@ padding-left: 0.5em;
   text-shadow:1px 1px .5px #061D60;
   margin: 2em;
   border-radius: 10px;
-  width: 25vw;
-  height: 25vh;
+  width: 35vw;
+  height: 35vh;
   box-shadow: .35em .35em .5em whitesmoke;
   display: flex;
   justify-content: center;
@@ -191,9 +186,9 @@ padding-left: 0.5em;
   color:#fff;
   margin: 2em;
   border-radius: 10px;
-  width: 25vw;
+  width: 35vw;
   text-shadow:1px 1px .5px #061D60;
-  height: 25vh;
+  height: 35vh;
   box-shadow: .35em .35em .5em whitesmoke;
   display: flex;
   justify-content: center;
@@ -207,13 +202,12 @@ padding-left: 0.5em;
 }
 
 .contactos{
-    margin-left: 5em;
-    margin-top: 5em;
-    width: 100;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    
+  margin-left: 5em;
+  margin-top: 5em;
+  width: 100;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .contactos p {
@@ -221,12 +215,11 @@ padding-left: 0.5em;
   font-size: 20px;
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 50px;
-
 }
+
 .contactos img {
   max-width: 50%;
   max-height: 25%;
-
 }
 
 .footer{
@@ -237,8 +230,9 @@ padding-left: 0.5em;
   padding-top: 0.5em;
   width: 100%;
 }
+
   footer p {
-    margin: 0;
+  margin: 0;
 }
 
 .referencia {
@@ -255,8 +249,8 @@ padding-left: 0.5em;
 }
 
 form textarea{
-    width: 100%;
-    height: 5em;
+  width: 100%;
+  height: 5em;
 }
 
 
@@ -266,6 +260,13 @@ TAMANHO PARA TABLET
 */
 
 @media (min-width: 768px){
+  .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-left: 0.75em;
+  }
+  
   .nav li {
     font-size: 1em;
     padding: 0  1em;
@@ -273,23 +274,16 @@ TAMANHO PARA TABLET
     text-decoration: none;
   }
 
-  .container {
-  display: flex;
-  justify-content: space-between; /* Aligns p and li vertically */
-  align-items: center;
-  padding-left: 0.75em;
-}
-
   h1 {
-  display: flex;
-  padding-top: 5em;
-  font-size:2.5em;
-  font-weight: bold;
-  justify-content:center;
-  flex-direction: row;
-  color: #061D60;
-  text-shadow: .1em .1em 1em whitesmoke;;
-}
+    display: flex;
+    padding-top: 5em;
+    font-size:2.5em;
+    font-weight: bold;
+    justify-content:center;
+    flex-direction: row;
+    color: #061D60;
+    text-shadow: .1em .1em 1em whitesmoke;;
+  }
 
 
   .missao p {
@@ -307,86 +301,78 @@ TAMANHO PARA TABLET
     justify-content: space-around;
   }
 
-  .parceiros img{
-    max-width: 100%;
-    height: 70%;
+  .areas{
+    background-color:#061D60;
+    box-shadow: 50%;
+    font-size: 1em;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 8em;
+    margin-right: 5em;
+    border-radius: 10px;
+    width: 25vw;
+    height: 25vh;
+    box-shadow: .35em .35em .5em whitesmoke;
+    padding-bottom:1em;
+  }  
+
+  .parceiros {
+    background-color: rgba(255,255, 255, 0.5);
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
+  .parceiros img{
+    max-width: 100%;
+    height: 12.2vh;
+  }
 
+  .servicos{
+      padding-top: 3em;
+      width: 100vw;
+      height: 50vh;
+      display: flex;
+      justify-content:space-around;
+  }
 
-.areas{
-  background-color:#061D60;
-  box-shadow: 50%;
-  font-size: 1em;
-  color: #fff;
-  font-weight: bold;
-  margin-left: 8em;
-  margin-right: 5em;
-  border-radius: 10px;
-  width: 25vw;
-  height: 20vh;
-  box-shadow: .35em .35em .5em whitesmoke;
-  padding-bottom:1em;
+  .contactos{
+      margin-left: 1em;
+      margin-top: 5em;
+      width: 100;
+      height: auto;
+      display: flex;
+      justify-content:space-around;
+  }
 
-}
+  .contactos p {
+    padding: 1.2em;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
+  }
 
-.parceiros {
-  background-color: rgba(255,255, 255, 0.5);
-  width: 100%;
-  height: fit-content;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
+  .contactos img {
+    max-width: 40%;
+    max-height: 25%;
+    padding-right: 1em;
+  }
 
-.parceiros img{
-  max-width: 100%;
-  height: 12.2vh;
-}
-
-.servicos{
-    padding-top: 3em;
-    width: 100vw;
-    height: 50vh;
-    display: flex;
-    justify-content:space-around;
-}
-.contactos{
-    margin-left: 1em;
-    margin-top: 5em;
-    width: 100;
-    height: auto;
-    display: flex;
-    justify-content:space-around;
-    
-}
-
-.contactos p {
-  padding: 1.2em;
-  font-size: 15px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 50px;
-
-}
-
-.contactos img {
-  max-width: 40%;
-  max-height: 25%;
-  padding-right: 1em;
-
-}
-.footer{
-  background-color: rgb(255, 255, 255, 0.65);
-  font-size: 1em;
-  color: #061D60;
-  margin: 0;
-  padding-top: 0.75em;
-  width: 100%;
-}
-  footer p {
+  .footer{
+    background-color: rgb(255, 255, 255, 0.65);
+    font-size: 1em;
+    color: #061D60;
     margin: 0;
-}
+    padding-top: 0.75em;
+    width: 100%;
+  }
+
+  .footer p {
+    margin: 0;
+  }
 }
 
 /*
@@ -409,15 +395,16 @@ TAMANHO PARA COMPUTADOR
   max-width: 100%;
   height: 20vh;
   }
+
  .parceiros {
-  background-color: rgba(255,255, 255, 0.5);
-  width: 100%;
-  height: fit-content;
-  padding: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
+    background-color: rgba(255,255, 255, 0.5);
+    width: 100%;
+    height: fit-content;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 
   .content{
   padding-bottom: 0;
@@ -437,128 +424,130 @@ TAMANHO PARA COMPUTADOR
   }
 
   h1 {
-  display: flex;
-  padding-top: 1em;
-  font-size:4em;
-  font-weight: bold;
-  justify-content:center;
-  flex-direction: row;
-  color: #061D60;
-  text-shadow: .1em .1em 1em whitesmoke;;
-}
+    display: flex;
+    padding-top: 1em;
+    font-size:4em;
+    font-weight: bold;
+    justify-content:center;
+    flex-direction: row;
+    color: #061D60;
+    text-shadow: .1em .1em 1em whitesmoke;;
+  }
 
-.areas{
-  background-color:#061D60;
-  box-shadow: 50%;
-  font-size: 1em;
-  color: #fff;
-  font-weight: bold;
-  margin: 10px;
-  border-radius: 10px;
-  width: 12vw;
-  height: 12vh;
-  box-shadow: .35em .35em .5em whitesmoke;
-  padding: 2em;
-}
-.servicos{
+  .areas{
+    background-color:#061D60;
+    box-shadow: 50%;
+    font-size: 1em;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+    width: 20vw;
+    height: 25vh;
+    box-shadow: .35em .35em .5em whitesmoke;
+    padding: .85em;
+  }
+
+  .servicos{
     padding-top: 3em;
     width: 100vw;
     height: 50vh;
     display: flex;
     justify-content:space-around;
-}
+  }
 
-.servicos_ensino {
-  background-image:url(imagens/ensino.jpeg);
-  background-size: cover;
-  box-shadow: 50%;
-  font-size: 1.2em;
-  color: #fff;
-  margin: 2em;
-  border-radius: 10px;
-  width: 25vw;
-  height: 25vh;
-  box-shadow: .35em .35em .5em whitesmoke;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
-}
-.servicos_ensino p{
-  font-weight: bold;
-  font-size: 1.5em;
-}
+  .servicos_ensino {
+    background-image:url(imagens/ensino.jpeg);
+    background-size: cover;
+    box-shadow: 50%;
+    font-size: 1.2em;
+    color: #fff;
+    margin: 2em;
+    border-radius: 10px;
+    width: 25vw;
+    height: 25vh;
+    box-shadow: .35em .35em .5em whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.servicos_bolsas{
-  background-image:url(imagens/bolsas.jpg);
-  background-size: cover;
-  box-shadow: 50%;
-  font-size: 1.2em;
-  color: #fff;
-  margin: 2em;
-  border-radius: 10px;
-  width: 25vw;
-  height: 25vh;
-  box-shadow: .35em .35em .5em whitesmoke;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .servicos_ensino p{
+    font-weight: bold;
+    font-size: 1.5em;
+  }
 
-.servicos_bolsas p{
-  font-weight: bold;
-  font-size: 1.5em;
-}
+  .servicos_bolsas{
+    background-image:url(imagens/bolsas.jpg);
+    background-size: cover;
+    box-shadow: 50%;
+    font-size: 1.2em;
+    color: #fff;
+    margin: 2em;
+    border-radius: 10px;
+    width: 25vw;
+    height: 25vh;
+    box-shadow: .35em .35em .5em whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.footer{
-  background-color: rgb(255, 255, 255, 0.65);
-  font-size: 1em;
-  color: #061D60;
-  margin: 0;
-  padding-top: 1em;
-  width: 100%;
-}
-  footer p {
-    margin: 0;
-}
-.contactos{
+  .servicos_bolsas p{
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .contactos{
     margin-left: 5em;
     margin-top: 5em;
     width: 100;
     height: auto;
     display: flex;
-    flex-wrap: wrap;
-    
-}
+    flex-wrap: wrap;  
+  }
 
-.contactos p {
-  padding: 2em;
-  font-size: 20px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 50px;
+  .contactos p {
+    padding: 2em;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
+  }
 
-}
+  .contactos img {
+    max-width: 30%;
+    max-height: 15%;
+  }
 
-.contactos img {
-  max-width: 30%;
-  max-height: 15%;
+  .footer{
+    background-color: rgb(255, 255, 255, 0.65);
+    font-size: 1em;
+    color: #061D60;
+    margin: 0;
+    padding-top: 1em;
+    width: 100%;
+  }
 
-}
-.referencia {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.direitos {
-  display: flex;
-  justify-content: space-between;
-  padding: 1em;
-  
-}
-form textarea{
+    footer p {
+    margin: 0;
+  }
+
+  .referencia {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .direitos {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+
+  form textarea{
     width: 100%;
     height: 5em;
-}
+  }
 
 }
