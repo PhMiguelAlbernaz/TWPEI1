@@ -1,12 +1,12 @@
 # TWPEI1
-Grupo: 
+Grupo 6: 
+Hernâni Araujo -> 2024111863
 Miguel Albernaz -> 2024109911
-Hernâni Araujo ->2024111863
 Pedro Anselmo -> 2023109163
 
-A fonte utilizada para os títulos e parágrafos foi a original (que vem por defeito sem edição) porque, segundo a nossa perspetiva, seriam percetíveis o suficiente para mostrar a informação da landing page. As cores e imagens representam temas da Universidade dos Açores e a um tema clínico e médico, como por exemplo imagens de laboratórios e dos Açores.
+A fonte utilizada para títulos e parágrafos foi a original (sans-serif) assim garantindo legibilidade. As cores seguem a paleta da Universidade dos Açores: azul institucional (#061D60) como cor principal, um cinza neutro (#D9D9D9), branco e preto. Esta escolha reforça a algumas das cores da Universidade dos Açores, enquanto as imagens (laboratórios e paisagens açorianas) remetem ao contexto clínico e regional do CACA
 
-Para um processo evolutivo da landing page começamos por pensar num aspeto e estrutura preparados para computador, colocando sequencialmente os tópicos. Em relação ao mockup desenvolvemos as ideias originadas do wireframe e confirmamos uma boa estrutura da landing page, os quais foram refletidos para outros dispositivos.
+Começámos pelo wireframe, onde definimos a estrutura sequencial das secções (missão, áreas de investigação, serviços, parceiros, contactos). No mockup, aperfeiçoamos a organização: separámos "Missão/Visão/Enquadramento" em três blocos visuais, adicionámos logótipos concretos aos parceiros (UAc, UFMG) e definimos melhor a hierarquia da informação. A implementação final seguiu o mockup, com ajustes de espaçamento e consistência visual entre secções para garantir legibilidade em todos os dispositivos
 
-De modo a tentarmos evitar quaisquer constrições possibilitadas com contraste de cores e tamanho das fontes, tentamos manter um contraste visual aparente (em maioria dos casos), de modo a ser legível quando contraposto com imagen. Já para o tamanho de letra, tal como a estrutura da landing page, permitimos a alteração de fontes e estrutura de acordo com media queries (telemóvel abaixo de 768px /minimo médio-768px/minimo grande-1020px) de forma a tornar o tamanho da fonte e estrutura coerente e apelativos.
+Garantimos contraste suficiente entre texto e fundo, atributos alt nas imagens e labels nos inputs. Utilizámos media queries para mobile (<768px), tablet (768px-1020px) e desktop (>1020px), ajustando grelhas e tamanhos de fonte.
 
