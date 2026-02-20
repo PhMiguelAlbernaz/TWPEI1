@@ -12,7 +12,6 @@ https://aicib.pt/estruturas-de-investigacao/cac-centros-academicos-clinicos/cac-
 CAC catolica luz  
 https://cac-cl.pt/pt/
 
- A- Estrutura da página visual:
 - Estrutura da página visual: 
 Esta landing page apresenta a informação bem detalhada, com diversos testemunhos e informação referente a vários conceitos técnicos
 e clínicos. Todos os conteúdos questionados (investigação, ensino e outros) encontram-se facilmente acessíveis.
