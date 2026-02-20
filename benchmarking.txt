@@ -1,19 +1,73 @@
-GNIKRAMHCNE
+BENCHMARKING 
 
-CAC: centroo académico  clinico
+
+CAC: centro académico  clinico
+
+
+Para a pesquisa entre vários CACs utilizamos este link que mostra os vários 
+CACs de Portugal
+https://aicib.pt/estruturas-de-investigacao/cac-centros-academicos-clinicos/cac-existentes/
 
 
 CAC catolica luz  
 https://cac-cl.pt/pt/
 
-CAC do alentejo 
-https://ctrail.pt/wp/
+ A- Estrutura da página visual:
+- Estrutura da página visual: 
+Esta landing page apresenta a informação bem detalhada, com diversos testemunhos e informação referente a vários conceitos técnicos
+e clínicos. Todos os conteúdos questionados (investigação, ensino e outros) encontram-se facilmente acessíveis.
 
+-Estilo Visual:
+A informação está apresentada de forma clara e apelativa, em caixas de tamanho dinâmico e com hiperligações para outras secções do website destacadas.
+
+- Elementos de confiança: 
+Esta CAC apresenta vários trust signals tais como notícias, logótipos de Hospitais e universidades e relatórios de eventos.
+
+
+CAC do alentejo
+https://cac-cl.pt/pt/
+
+- Estrutura da página visual: 
+A estrutura é clara e susinta que permite compreender onde estão as 
+informações que se procuram.
+
+- Estilo Visual:
+O site está estruturado esteticamente de modo não haver perdas de atenção 
+relativamente a procura de informação.
+
+- Elementos de confiança: 
+O site apresenta referências a outras instituições de confiança.
+
+- Credibilidade da informação:
+O site tem projetos relacionados com as instituições a que o CAC é 
+associado.
 
 
 CAC das Beiras
 http://www.cacbeiras.pt/home_page
 
+- Estrutura da página visual e Credibilidade da informação:
+A landing page mostra alguns assuntos como formações, eventos e notícias, 
+mas não remete muito para o propósito e informações adicionais destacadas, 
+estando estas em zonas acessadas através da barra de navegação superior. 
+Este site poderia conter alguma informação adicional a remeter o utilizador
+para alguns tópicos, como investigações e propriamente parceiros
+deste CAC, de modo a incentivar o utilizador sobre a credibilidade e 
+testemunhas deste centro.
+
+- Estilo Visual:
+A landing page apresenta um estilo simples, constituído pelos vários 
+elementos em blocos.
+
+- Elementos de confiança: 
+Nesta página estão contidos notícias, eventos e formações, mas não muitos 
+mais detalhes sobre quem são ou sobre a que parceiros estão associados.
 
 
-Melhorias
+Sintese: 
+
+O BENCHMARKING permitiu-nos perceber como poderíamos utilizar os sites 
+como referência e elaborar novas maneiras de estilizar o nosso site. Ao 
+fazermos este estudo percebemos que a falta de certas características 
+como a demonstração da identidade da CAC,uma clara identificação dos 
+planos e recursos disponíveis impede uma melhor perspetiva da página.
