@@ -10,3 +10,5 @@ Começámos pelo wireframe, onde definimos a estrutura sequencial das secções 
 
 Garantimos contraste suficiente entre texto e fundo, atributos alt nas imagens e labels nos inputs. Utilizámos media queries para mobile (<768px), tablet (768px-1020px) e desktop (>1020px), ajustando grelhas e tamanhos de fonte.
 
+Figma projeto:
+https://www.figma.com/design/Sv9KECCrfBkjX4ovgrzBn1/TW--wireframe-e-mockup?node-id=0-1&t=q9mbYic0SUEkWYhg-1
