@@ -1,7 +1,7 @@
 header {
   margin: 0;
   background-color: rgb(255, 255, 255, 0.6);
-  color: #1E4F8C;
+  color: #3964e7;
 }
 
 .container {
@@ -22,7 +22,7 @@ header {
 .nav li {
   font-size:.85em;
   padding: 0  1em;
-  color: #061D60;
+  color: #5d80e9;
   text-decoration: none;
 }
 
@@ -32,6 +32,7 @@ header {
 .nav li a{
  text-decoration:none;
  color: #061D60;
+ font-weight: bold;
 }
 
 body {
@@ -48,7 +49,6 @@ body {
 
 h1 {
   display: flex;
-  padding-top:4em;
   font-size:2em;
   font-weight: bold;
   justify-content:center;
@@ -94,10 +94,11 @@ h2 {
 .content{
   padding-bottom: 0;
   width: 100vw;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  min-height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr; 
+  justify-items: center;
+  gap:20px;
 }
 
 .areas{
@@ -108,7 +109,7 @@ h2 {
   font-weight: bold;
   margin: 10px;
   border-radius: 10px;
-  width: 40vw;
+  width: 70vw;
   height: 30vh; 
   box-shadow: .35em .35em .5em whitesmoke;
   padding-bottom: 1.2em;
@@ -135,8 +136,10 @@ h2 {
 }
 
 .parceiros img{
-  max-width: 100%;
-  height: 10vh;
+  min-width: 20%;
+  max-width: 60%;
+  height: auto;
+  /*height: 10vh;*/
 }
 
 .servicos{
@@ -147,7 +150,6 @@ h2 {
 }
 .servicos_titulo{
   display: flex;
-  padding-top:30em;
   font-size:1em;
   font-weight: bold;
   justify-content:center;
@@ -218,9 +220,19 @@ h2 {
 }
 
 .contactos img {
-  max-width: 50%;
-  max-height: 25%;
+  min-width: 20%;
+  height:auto;
 }
+
+.contactos_form {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.contactos_form input[type=text], select {
+  border: 1px solid #061D60;
+}
+
 
 .footer{
   background-color: rgb(255, 255, 255, 0.65);
@@ -248,10 +260,7 @@ h2 {
   padding: 1em;
 }
 
-form textarea{
-  width: 100%;
-  height: 5em;
-}
+
 
 
 
@@ -276,7 +285,6 @@ TAMANHO PARA TABLET
 
   h1 {
     display: flex;
-    padding-top: 5em;
     font-size:2.5em;
     font-weight: bold;
     justify-content:center;
@@ -295,10 +303,16 @@ TAMANHO PARA TABLET
     padding: 5px;
     width: 100vw;
     height: 50vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  }
+
+  .content {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 30px;
+    height: auto;
+    padding: 40px 0;
   }
 
   .areas{
@@ -327,8 +341,10 @@ TAMANHO PARA TABLET
   }
 
   .parceiros img{
-    max-width: 100%;
-    height: 12.2vh;
+    min-width: 20%;
+    max-width: 80%;
+    height: auto;
+    /*height: 12.2vh;*/
   }
 
   .servicos{
@@ -356,9 +372,8 @@ TAMANHO PARA TABLET
   }
 
   .contactos img {
-    max-width: 40%;
-    max-height: 25%;
-    padding-right: 1em;
+    min-width: 30%;
+    height:auto;
   }
 
   .footer{
@@ -392,8 +407,9 @@ TAMANHO PARA COMPUTADOR
   }
 
   .parceiros img{
+  min-width: 20%;
   max-width: 100%;
-  height: 20vh;
+  height: auto;
   }
 
  .parceiros {
@@ -425,13 +441,22 @@ TAMANHO PARA COMPUTADOR
 
   h1 {
     display: flex;
-    padding-top: 1em;
     font-size:4em;
     font-weight: bold;
     justify-content:center;
     flex-direction: row;
     color: #061D60;
     text-shadow: .1em .1em 1em whitesmoke;;
+  }
+
+  .content {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 40px;
+    height:auto;
+    padding: 40px 0;
   }
 
   .areas{
@@ -445,7 +470,7 @@ TAMANHO PARA COMPUTADOR
     width: 20vw;
     height: 25vh;
     box-shadow: .35em .35em .5em whitesmoke;
-    padding: .85em;
+    padding: 1em;
   }
 
   .servicos{
@@ -515,8 +540,8 @@ TAMANHO PARA COMPUTADOR
   }
 
   .contactos img {
-    max-width: 30%;
-    max-height: 15%;
+    min-width: 30%;
+    height:auto;
   }
 
   .footer{
@@ -543,11 +568,6 @@ TAMANHO PARA COMPUTADOR
     display: flex;
     justify-content: space-between;
     padding: 1em;
-  }
-
-  form textarea{
-    width: 100%;
-    height: 5em;
   }
 
 }
