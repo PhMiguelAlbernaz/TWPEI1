@@ -223,31 +223,21 @@ h2 {
   min-width: 20%;
   height:auto;
 }
-.contactos_form{
 
-
-}
 .contactos_form {
   background-color: #fff;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-
+  max-width: max-content;
 }
-.contactos_form  label{
+
+.contactos_form input[type=submit], label{
   display: flex;
   flex-direction: column;
-  font-size: 15px;
-}
-.contactos_form input[type=text], select {
-  border: 1px solid #061D60;
-  border-radius: 5px;
-  outline: none;
-  width: 20em;
-  height: auto;
+  font-size: 20px;
   
 }
-
 
 
 
@@ -260,7 +250,7 @@ h2 {
   width: 100%;
 }
 
-  footer p {
+footer p {
   margin: 0;
 }
 
@@ -276,9 +266,6 @@ h2 {
   justify-content: space-between;
   padding: 1em;
 }
-
-
-
 
 
 /*
@@ -310,7 +297,6 @@ TAMANHO PARA TABLET
     text-shadow: .1em .1em 1em whitesmoke;;
   }
 
-
   .missao p {
     font-size: 1em;
   }
@@ -320,7 +306,7 @@ TAMANHO PARA TABLET
     padding: 5px;
     width: 100vw;
     height: 50vh;
-  }
+    }
 
   .content {
     display:grid;
