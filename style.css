@@ -36,8 +36,10 @@ header {
 }
 
 body {
+  overflow-x:hidden;
   margin: 0;
   padding: 0;
+
 }
 
 .background{
@@ -234,13 +236,13 @@ h2 {
 }
 
 .contactos{
-  margin-left: 5em;
+  margin-left: 1.5em;
   margin-top: 5em;
   width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  align-items: start;
+  align-items: center;
 }
 
 .contactos p {
@@ -252,14 +254,14 @@ h2 {
 }
 
 .contactos img {
-  min-width: 15%;
+  min-width: 10%;
   height:auto;
 }
 
 .contactos_form {
   background-color: #fff;
   border-radius: 20px;
-  max-width: max-content;
+  max-width: 100%;
   padding: 2em ;
 }
 
@@ -364,7 +366,7 @@ TAMANHO PARA TABLET
     margin-right: 5em;
     border-radius: 10px;
     width: 25vw;
-    height: 25vh;
+    height: fit-content;
     box-shadow: .35em .35em .5em whitesmoke;
     padding-bottom:1em;
     transition: transform 0.3s ease, filter 0.3s ease;
@@ -405,41 +407,37 @@ TAMANHO PARA TABLET
       justify-content:space-around;
   }
 
-  .contactos{
-  margin-left: 5em;
-  margin-top: 5em;
+.contactos{
+  margin: 2em 2em;
   width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  align-items: start;
-}}
-
-  .contactos p {
-    padding: 1.2em;
-    font-size: 15px;
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 50px;
-  
-    min-width: 20%;
-    max-width: 80%;
-    height: auto;
-  
-  }
-  .contactos img {
-  min-width: 20%;
-  height:auto;
+  justify-content: space-evenly;
 }
 
+.contactos p {
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  padding: 2em;
+}
 
+.contactos img {
+  min-width: 10%;
+  height:15vh;
+  margin: 0 2em;
+}
 
-
-  .contactos_form {
+.contactos_form {
   background-color: #fff;
   border-radius: 20px;
   max-width: max-content;
-  padding: 2em ;
+  margin-right: 2em;
+  flex-basis:100%
 }
+
+
 
 .contactos_form input[type=submit], label{
   display: flex;
@@ -539,7 +537,7 @@ TAMANHO PARA COMPUTADOR
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
     height:auto;
     padding: 40px 0;
   }
@@ -552,11 +550,9 @@ TAMANHO PARA COMPUTADOR
     font-weight: bold;
     margin: 10px;
     border-radius: 10px;
-    width: 20vw;
-    height: 25vh;
+    width: fit-content;
+    height: fit-content;
     box-shadow: .35em .35em .5em whitesmoke;
-    padding: 1em;
-
     transition: transform 0.3s ease, filter 0.3s ease;
   }
 
@@ -747,31 +743,37 @@ TAMANHO PARA COMPUTADOR
 }
 
   .contactos{
-    margin-left: 1em;
+    margin-left: 2em;
     margin-top: 5em;
     width: 100;
     height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
   }
 
   .contactos p {
     padding: 2em;
-    font-size: 20px;
+    font-size: 15px;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 50px;
     color: #061D60;
   }
+  
   .contactos img {
-
-    min-width: 45%;
+    min-width: 20%;
     height:auto;
+    margin-right: 1em;
   }
 
   .contactos_form {
   background-color: #fff;
   border-radius: 20px;
   max-width: max-content;
-
-}
+  display: flex;
+  align-items: center;
+  margin-right: 2.5em;
+  }
 
 .contactos_form input[type=submit], label{
   display: flex;
@@ -781,7 +783,6 @@ TAMANHO PARA COMPUTADOR
 }
 
   .contactos label{
-    
   padding-top: 20px;  
 }
   
@@ -813,4 +814,5 @@ TAMANHO PARA COMPUTADOR
     padding: 1em;
   }
 
+}
 }
