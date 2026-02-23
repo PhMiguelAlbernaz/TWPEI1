@@ -236,12 +236,13 @@ h2 {
 }
 
 .contactos{
-  margin-left: 1.5em;
+  margin-left: 1.em;
   margin-top: 5em;
   width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center ;
   align-items: center;
 }
 
@@ -261,7 +262,7 @@ h2 {
 .contactos_form {
   background-color: #fff;
   border-radius: 20px;
-  max-width: 100%;
+  width: 80%;
   padding: 2em ;
 }
 
@@ -273,7 +274,7 @@ h2 {
 }
 
   .contactos label{
-    
+
   padding-top: 20px;  
 }
   
@@ -696,7 +697,7 @@ TAMANHO PARA COMPUTADOR
 
 .servicos_ensino p{
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 2em;
   letter-spacing: 1px;
 }
 
@@ -730,7 +731,7 @@ TAMANHO PARA COMPUTADOR
 
 .servicos_bolsas p{
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 2em;
   letter-spacing: 1px;
 }
 
@@ -754,7 +755,7 @@ TAMANHO PARA COMPUTADOR
 
   .contactos p {
     padding: 2em;
-    font-size: 15px;
+    font-size: 20px;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 50px;
     color: #061D60;
