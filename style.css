@@ -61,10 +61,17 @@ h2 {
   font-size: 1.5em;
 }
 
+/* EFEITO HOVER APLICADO À MISSÃO (SEM ALTERAR CORES) */
 .missao{
   margin: 4em;
   background-color: rgb(255, 255, 255, 0.70);
   border-radius: 14px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.missao:hover {
+  transform: scale(1.02);
+  filter: brightness(1.05);
 }
 
 .missao h1 {
@@ -88,7 +95,6 @@ h2 {
   padding-top: 5em;
   color: #061D60;
   text-shadow: 5px 5px 10px white;
-
 }
 
 .content{
@@ -101,6 +107,7 @@ h2 {
   gap:20px;
 }
 
+/* EFEITO HOVER APLICADO ÀS ÁREAS DE INVESTIGAÇÃO (SEM ALTERAR CORES) */
 .areas{
   background-color:#061D60;
   box-shadow: 50%;
@@ -113,6 +120,12 @@ h2 {
   height: 30vh; 
   box-shadow: .35em .35em .5em whitesmoke;
   padding-bottom: 1.2em;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.areas:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
 }
 
 .areas p {
@@ -139,7 +152,12 @@ h2 {
   min-width: 20%;
   max-width: 60%;
   height: auto;
-  /*height: 10vh;*/
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.parceiros img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.15);
 }
 
 .servicos{
@@ -173,8 +191,14 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
+
+.servicos_ensino:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
 .servicos_ensino p{
   font-weight: bold;
   font-size: 1.5em;
@@ -195,6 +219,12 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.servicos_bolsas:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
 }
 
 .servicos_bolsas p{
@@ -337,7 +367,13 @@ TAMANHO PARA TABLET
     height: 25vh;
     box-shadow: .35em .35em .5em whitesmoke;
     padding-bottom:1em;
+    transition: transform 0.3s ease, filter 0.3s ease;
   }  
+
+  .areas:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+  }
 
   .parceiros {
     background-color: rgba(255,255, 255, 0.5);
@@ -353,7 +389,12 @@ TAMANHO PARA TABLET
     min-width: 20%;
     max-width: 80%;
     height: auto;
-    /*height: 12.2vh;*/
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
+  .parceiros img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.15);
   }
 
   .servicos{
@@ -419,6 +460,12 @@ TAMANHO PARA COMPUTADOR
   min-width: 20%;
   max-width: 100%;
   height: auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
+  .parceiros img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.15);
   }
 
  .parceiros {
@@ -480,57 +527,195 @@ TAMANHO PARA COMPUTADOR
     height: 25vh;
     box-shadow: .35em .35em .5em whitesmoke;
     padding: 1em;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
+  .areas:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
   }
 
   .servicos{
-    padding-top: 3em;
-    width: 100vw;
-    height: 50vh;
-    display: flex;
-    justify-content:space-around;
-  }
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  .servicos_ensino {
-    background-image:url(imagens/ensino.jpeg);
-    background-size: cover;
-    box-shadow: 50%;
-    font-size: 1.2em;
-    color: #fff;
-    margin: 2em;
-    border-radius: 10px;
-    width: 25vw;
-    height: 25vh;
-    box-shadow: .35em .35em .5em whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.servicos_titulo{
+  display: flex;
+  padding-top:30em;
+  font-size:1em;
+  font-weight: bold;
+  justify-content:center;
+  flex-direction: row;
+  color: #061D60;
+  text-shadow: .1em .1em 1em whitesmoke;
+}
 
-  .servicos_ensino p{
-    font-weight: bold;
-    font-size: 1.5em;
-  }
+/* ENSINO */
 
-  .servicos_bolsas{
-    background-image:url(imagens/bolsas.jpg);
-    background-size: cover;
-    box-shadow: 50%;
-    font-size: 1.2em;
-    color: #fff;
-    margin: 2em;
-    border-radius: 10px;
-    width: 25vw;
-    height: 25vh;
-    box-shadow: .35em .35em .5em whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.servicos_ensino {
+  background-image:
+  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+  url(imagens/ensino.jpeg);
 
-  .servicos_bolsas p{
-    font-weight: bold;
-    font-size: 1.5em;
-  }
+  background-size: cover;
+  background-position: center;
+
+  margin: 2em;
+  border-radius: 10px;
+
+  width: 35vw;
+  height: 35vh;
+
+  color: #ffffff;
+  text-shadow: 0 3px 10px rgba(0,0,0,0.9);
+
+  box-shadow: .35em .35em .5em whitesmoke;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.servicos_ensino p{
+  font-weight: bold;
+  font-size: 1.6em;
+  letter-spacing: 1px;
+}
+
+/* BOLSAS */
+
+.servicos_bolsas{
+  background-image:
+  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+  url(imagens/bolsas.jpg);
+
+  background-size: cover;
+  background-position: center;
+
+  margin: 2em;
+  border-radius: 10px;
+
+  width: 35vw;
+  height: 35vh;
+
+  color: #ffffff;
+  text-shadow: 0 3px 10px rgba(0,0,0,0.9);
+
+  box-shadow: .35em .35em .5em whitesmoke;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.servicos_bolsas p{
+  font-weight: bold;
+  font-size: 1.6em;
+  letter-spacing: 1px;
+}
+
+.servicos{
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.servicos_titulo{
+  display: flex;
+  padding-top:30em;
+  font-size:1em;
+  font-weight: bold;
+  justify-content:center;
+  flex-direction: row;
+  color: #061D60;
+  text-shadow: .1em .1em 1em whitesmoke;
+}
+
+/* ENSINO */
+
+.servicos_ensino {
+  background-image:
+  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+  url(imagens/ensino.jpeg);
+
+  background-size: cover;
+  background-position: center;
+
+  margin: 2em;
+  border-radius: 10px;
+
+  width: 35vw;
+  height: 35vh;
+
+  color: #ffffff;
+  text-shadow: 0 3px 10px rgba(0,0,0,0.9);
+
+  box-shadow: .35em .35em .5em whitesmoke;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.servicos_ensino p{
+  font-weight: bold;
+  font-size: 1.6em;
+  letter-spacing: 1px;
+}
+
+/* BOLSAS */
+
+.servicos_bolsas{
+  background-image:
+  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+  url(imagens/bolsas.jpg);
+
+  background-size: cover;
+  background-position: center;
+
+  margin: 2em;
+  border-radius: 10px;
+
+  width: 35vw;
+  height: 35vh;
+
+  color: #ffffff;
+  text-shadow: 0 3px 10px rgba(0,0,0,0.9);
+
+  box-shadow: .35em .35em .5em whitesmoke;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.servicos_bolsas p{
+  font-weight: bold;
+  font-size: 1.6em;
+  letter-spacing: 1px;
+}
+
+/* HOVER EFFECT */
+
+.servicos_ensino:hover,
+.servicos_bolsas:hover{
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
 
   .contactos{
     margin-left: 5em;
@@ -553,6 +738,7 @@ TAMANHO PARA COMPUTADOR
     min-width: 30%;
     height:auto;
   }
+
   .footer{
     background-color: rgb(255, 255, 255, 0.65);
     font-size: 1em;
