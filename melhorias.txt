@@ -1,0 +1,15 @@
+Para melhorar a landing page depois da apresentação, nós resolvemos
+situações relacionadas a paddings e margins que afetavam manualmente e 
+negativamente a página e problemas de organização do código.
+
+As imagens que se encontravam nos parceiros e contactos foram alteradas
+(no CSS) para diminuir e aumentar com o estreitamento/alargamente da página.
+
+Além disso, a área de investigação passou a utilizar uma grid em vez de flex,
+tornando assim aquela área mais intuitiva de ser percebida em código e 
+retirando os paddings auxiliares desnecessários, melhorando assim a estrutura
+da landing page.
+
+Também tentamos alterar alguns dos contrastes do texto ao escurecer o fundo 
+destese também adicionando pequenos detalhes como o aumento de certas zonas
+ao passar com o rato em cima (hover).
