@@ -240,10 +240,10 @@ h2 {
   height: auto;
   display: flex;
   flex-wrap: wrap;
+  align-items: start;
 }
 
 .contactos p {
-  
   font-size: 20px;
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 50px;
@@ -406,25 +406,54 @@ TAMANHO PARA TABLET
   }
 
   .contactos{
-      margin-left: 1em;
-      margin-top: 5em;
-      width: 100;
-      height: auto;
-      display: flex;
-      justify-content:space-around;
-  }
+  margin-left: 5em;
+  margin-top: 5em;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+}}
 
   .contactos p {
     padding: 1.2em;
     font-size: 15px;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 50px;
+  
+    min-width: 20%;
+    max-width: 80%;
+    height: auto;
+  
   }
-
   .contactos img {
-    min-width: 30%;
-    height:auto;
-  }
+  min-width: 20%;
+  height:auto;
+}
+
+
+
+
+  .contactos_form {
+  background-color: #fff;
+  border-radius: 20px;
+  max-width: max-content;
+  padding: 2em ;
+}
+
+.contactos_form input[type=submit], label{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+
+}
+
+  .contactos label{
+    
+  padding-top: 20px;  
+}
+  
+
 
   .footer{
     background-color: rgb(255, 255, 255, 0.65);
@@ -438,7 +467,7 @@ TAMANHO PARA TABLET
   .footer p {
     margin: 0;
   }
-}
+
 
 /*
 TAMANHO PARA COMPUTADOR
@@ -527,6 +556,7 @@ TAMANHO PARA COMPUTADOR
     height: 25vh;
     box-shadow: .35em .35em .5em whitesmoke;
     padding: 1em;
+
     transition: transform 0.3s ease, filter 0.3s ease;
   }
 
@@ -612,7 +642,6 @@ TAMANHO PARA COMPUTADOR
   display: flex;
   justify-content: center;
   align-items: center;
-
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
@@ -718,12 +747,10 @@ TAMANHO PARA COMPUTADOR
 }
 
   .contactos{
-    margin-left: 5em;
+    margin-left: 1em;
     margin-top: 5em;
     width: 100;
     height: auto;
-    display: flex;
-    flex-wrap: wrap;  
   }
 
   .contactos p {
@@ -733,11 +760,32 @@ TAMANHO PARA COMPUTADOR
     border-radius: 50px;
     color: #061D60;
   }
-
   .contactos img {
-    min-width: 30%;
+
+    min-width: 45%;
     height:auto;
   }
+
+  .contactos_form {
+  background-color: #fff;
+  border-radius: 20px;
+  max-width: max-content;
+
+}
+
+.contactos_form input[type=submit], label{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+
+}
+
+  .contactos label{
+    
+  padding-top: 20px;  
+}
+  
+
 
   .footer{
     background-color: rgb(255, 255, 255, 0.65);
